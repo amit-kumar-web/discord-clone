@@ -1,0 +1,309 @@
+body{
+    outline: 0;
+    margin: 0;
+ padding: 0;
+ overflow-x: hidden;
+}
+.top{
+    background-color: blue;
+    height: 80vh;
+    width: 100vw ;
+    position: relative;
+}
+ul{display: flex;
+    /* margin-top: -20px; */
+    margin-left:200px;
+    gap: 50px;
+    font-size: 18px;
+    list-style: none;
+    color: white;
+    
+}
+.d{ display: flex;
+    justify-content: space-around;
+    
+}
+.B{
+    height: 45px;
+    width: 73px;
+    border: 2px solid black;
+    /* padding: 12px;.. */
+    border-radius: 23px;
+
+}
+.a{
+    padding: 12px;
+
+}
+.im{
+    position: absolute;
+    top: 40%;
+    color: white;
+    font-size: 40px;
+    margin-top: -30px;
+}
+.right{
+    position: absolute;
+    bottom: 0vh;
+    right: -16vw;
+
+}
+.left{
+position: absolute;
+bottom: 0vh;
+ left:-20vw;
+}
+.cloud{
+    width:100%;
+    height: 100%;
+    position: absolute;
+    top: 19%;
+}
+.z{
+ color: white;
+ position: absolute;
+ top: 45%;
+ text-align: center;
+}
+.y{
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 72%;
+    height: 40px;
+    width: 13%;
+    color: black;
+    border-radius: 30px;
+    font-size: 15px;
+    gap: 10px;
+    
+}
+.p{
+    color: white;
+    position: absolute;
+    margin: left 80px;
+    height: 40px;
+    width: 15%;
+    color: black;
+    border-radius: 30px;
+    font-size: 17px;
+    top: 72%;
+    margin-left: 30%;
+    text-align: center;
+    display: flex;
+
+}    
+.heading1{
+margin-left: 20%;
+    margin-top: -85%;
+    font-size: 50px;
+}
+.p1{
+    margin-left: 20%;
+
+
+
+
+}
+.cont2{
+    background-color: lightgray;
+    width: 100%;
+    height: 400px;
+    
+}
+.heading2{
+    font-size: 50px;
+    margin-right: 18%;
+    position: relative ;
+    float: right;
+    top: -100%;
+
+
+}
+.main{
+    height: 400px;
+    width: 448px;
+}
+
+.P2{
+    font-size: 18px;
+    margin-left: 5%;
+    float: right;
+    position: relative;
+    left: 22%;
+    bottom: 60%;
+    
+    
+}
+.pic{
+    height: 100%;
+    margin-left: 170%;
+    margin-top: -2%;
+    
+}
+.pic2{
+     margin-right: 50%;
+    margin-top: -1%;
+
+}
+.pic4{
+    height: 40%;
+    width: 40%;
+    text-align: center;
+    margin-top: -10%;
+    
+    
+}
+.text1{ 
+
+    float: right;
+    position: absolute;
+    left: 60%;
+    top: 200%;
+    font-size: 48px;
+}
+.text2{ 
+
+    float: right;
+    position: absolute;
+    left: 60%;
+    top: 219%;
+    font-size: 20px;
+}
+.cont3{
+    background-color: lightgray;
+    width: 100%;
+    height: 1300px;
+    
+}
+
+.text3{ 
+
+font-size: 50px;
+text-align: center;
+font-weight: 900;
+
+}
+.text4{ 
+
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 3%;
+    
+}
+.pic5{
+    height: 100%;
+    width: 100%;
+    margin-top: -25%;
+
+}
+
+.text5{
+    font-size: 50px;
+    text-align: center;
+    margin-top: -12%;
+}
+.b2{
+    height: 70px;
+    width: 300px;
+    border: 2px solid blue;
+    border-radius: 23px;
+    background-color: blue;
+    color: white;
+    font-size: 120%;
+    margin-left: 40%
+}
+.footer{
+    background-color: rgba(47, 79, 73, 0.763);
+    width: 100%;
+    height: 500px;
+    top: 5%;
+
+}
+.USA{
+    color: white;
+    margin-left: 5%;
+    margin-top: -1%;
+    
+    
+}
+.text6{
+    color: blue;
+}
+footer{
+    background-color: black;
+    display: flex;
+    gap: 10%;
+    width: 100vw;
+    height: 300px;
+}
+
+.product a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.company a{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+.resources a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    
+}
+
+.policies a , h4{
+    color: white;
+    text-decoration: none;
+    display: block;
+    
+
+}
+.social i{
+
+    color: white;
+    text-decoration: none;
+    display:inline-block;
+    padding: 5px;
+    position: relative;
+    top: 20%;
+}
+.footer{
+    height: 100px;
+    width: 100vw;
+    background-color: black;
+    margin-top: -25px;
+
+    
+}
+hr{
+    color: white;
+
+}
+.btn{
+    height: 45px;
+    width: 73px;
+    border: 2px solid blue;
+    background-color: blue;
+    color: white;
+margin-left: 70%;
+    border-radius: 23px;
+}
+.coach img{
+    height: 40vw;
+   margin-top: -10%;
+}
+.coach h1 {
+    margin-left: 70%;
+    margin-top: -700px;
+    font-size: 60px;
+}
+.coach p {
+    margin-left: 70%;
+    font-size: 30px;
+}
